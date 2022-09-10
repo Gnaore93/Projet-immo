@@ -8,5 +8,5 @@ def home(request):
     return render(request,"index.html",context)
 
 def detail(request,id_habitat):
-    print(id_habitat)
-    return render(request,'detail.html')
+    detailarticle = Habitat.objects.get(id=id_habitat)
+    return render(request,'detail.html', locals())

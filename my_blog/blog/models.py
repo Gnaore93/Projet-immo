@@ -12,3 +12,24 @@ class Habitat(models.Model):
         return self.title
         
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
